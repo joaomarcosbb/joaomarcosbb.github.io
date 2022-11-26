@@ -1,0 +1,207 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;  
+    background: #000000;
+    font-family: 'Raleway', sans-serif;
+    margin: 30px 30px 30px 30px;
+    font-size: 21px;
+}
+
+@media (max-width: 400px){
+    body {
+        background-color: #000000;
+    }
+}
+.container-fluid{
+    margin: 0 auto;
+
+}
+/* ================== INICIO NAV BAR ===============*/
+.navbar-menu{
+    flex-direction: row; 
+}
+.nav-bar{
+    background-color: rgba(0,0,0,.848);
+    min-height: 60px;
+    backdrop-filter: blur(15px);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    justify-content: flex-start;
+}
+.nav-links{
+    color: white;
+    flex-direction: row;
+    text-decoration: none;
+    padding: 0px 15px 0px 15px;
+    
+
+}
+.nav-links:hover{
+    border-bottom: 2px solid white;
+
+}
+/* ================== FIM NAV BAR ===============*/
+.resume{
+    text-align: justify;
+    padding: 5px 5px 50px 5px;
+    color: white;
+    font-weight: 600;
+}
+.first{
+    padding: 5px;
+}
+.profile{
+   
+    margin-top: 15px;
+    text-align: center;
+    
+}
+.foto-principal {
+    margin-top: 15px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #959595;
+    
+}
+p{
+    font-size: 21px;
+    color: white;
+}
+h1{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+h2{
+    font-style: italic;
+    color: #ffffff;
+    letter-spacing: -1px;
+    margin-top: 1px;
+}
+h3{
+    padding-left: 20PX;
+    color: #ffffff;
+    font-size: 42px;
+    text-align: center;
+
+}
+h4{
+    margin-bottom: 2px;
+    color: #ffffff;
+}
+h5{
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-style: italic;
+}
+h6{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px -20px;
+    font-weight: 100;
+    font-style: bold;
+    font-size: 12px;
+    color: #ffffff;
+}
+.social-links{
+    color: #ffffff;
+    text-decoration: none; /* PARA TIRAR O _ ENTRE OS LOGOS */
+}
+.social-icons{
+    color: #ffffff;
+    width: 20px;
+    margin-left: 5px;
+    
+
+}
+
+.jobs-list{
+    color: #ffffff;
+    padding-left: 20px;
+   
+        opacity: 1;
+        transform: translateZ(0); 
+        transition-timing-function: ease-in-out;
+        transition-duration: .8s;
+        transition-property: opacity,transform;
+    }
+.certifications-list{
+    color: #ffffff;
+    padding-left: 20px;
+}
+.study-list{
+    padding-left: 20px;
+    color: #ffffff;
+}
+.main-skills{
+    text-align: justify;
+    padding-left: 20px;
+    color: #ffffff;
+}
+.more-information{
+    padding-left: 20px;
+    color: #ffffff;
+}
+.footer{
+    
+    background-color: #000000;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    width:100%;
+    
+}
+
+.tools{
+
+    text-align: center;
+
+}
+.tools .logos-tools{
+    margin: 0px 150px 0px 150px;
+    padding: 20px;
+   
+
+}
+.tools .logos-tools:hover{
+border-bottom: 2px solid white;
+}
+.other-skills{
+    color: white;
+}
+
+.skills{
+    text-align: center;
+}
+.skills .logos-skills{
+    margin: 0px 100px 0px 100px;
+    padding: 20px;
+}
+.skills .logos-skills:hover{
+    border-bottom: 2px solid white;
+}
+.jobs-list-ireland{
+    background-image: url(../img/noun-ireland-694068.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+
+}
+.jobs-list-brazil{
+    background-image: url(../img/592690-200.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+
+}
+.study-list{
+    margin-top: 180px;
+}
